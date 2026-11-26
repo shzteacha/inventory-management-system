@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Git
+.git/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+config.local.php
+*.pem
+*.key
+
+# Database exports and local database files
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
